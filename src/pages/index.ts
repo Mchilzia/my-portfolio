@@ -4,6 +4,8 @@ import { Contact } from "./contact";
 import { Login } from "./login";
 import { Register } from "./register";
 import { ErrorPage } from "./errorpage";
+import { Projects } from "./projects";
+import { Resume } from "./resume";
 
 export  {
     Home,
@@ -11,5 +13,7 @@ export  {
     Contact,
     Login,
     Register,
-    ErrorPage
+    ErrorPage,
+    Projects,
+    Resume
 };

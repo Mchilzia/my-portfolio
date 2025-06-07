@@ -11,11 +11,11 @@ type LayoutProps = {
 export const Layout = ({ children }: LayoutProps) => {
     return (
         <div className="flex flex-col min-h-screen">
-            <Header title="Welcome" name="DevLuco" />
-            <main className="flex-grow container mx-auto p-4">
+            <Header title="Welcome" name="Chilzia" />
+            <main className="flex-1 p-4">
                 {children}
             </main>
-            <Footer date={new Date()} name="LucoDev" />
+            <Footer name="Chilzia" date={new Date()} />
         </div>
     );
 };
